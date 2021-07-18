@@ -1,5 +1,4 @@
-//uid: 20mca1526
-//Name: puneet khandal
+
 //Ques1: Snake and ladder game.
 
 #include <iostream>
@@ -215,8 +214,8 @@ void layoutLadderSnake( pair<pair<int,int>, string>& user1, pair<pair<int,int>, 
         newfile.close(); 
     }
 
-    cout << user1.first.first<<"\t"<< user1.first.second<<"\n";
-    cout << user2.first.first<<"\t"<< user2.first.second<<"\n";
+//     cout << user1.first.first<<"\t"<< user1.first.second<<"\n";
+//     cout << user2.first.first<<"\t"<< user2.first.second<<"\n";
     cout <<"\t\t\t\t\t     " <<message<<(!message.empty()?((rolldice==1)?" P2":" P1"):"")<<"\n";
     cout <<"\t\t\t\t\t\t     Player1 => "<<p1Position<<"  Player2 => "<<p2Position<<"\n";
     cout <<"\t\t\t\t\t\t        Last Dice value => "<<diceValue<<"\n";
